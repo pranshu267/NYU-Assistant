@@ -1,6 +1,6 @@
 data/
 faiss_index/
-/source/.env
+/src/.env
 __pycache__/
 .venv/
 .vscode/

@@ -1,0 +1,14 @@
+langchain==0.1.17
+langchain-groq==0.1.3
+llama-parse==0.1.3
+unstructured
+python-dotenv==1.0.0
+protobuf==3.19.0
+streamlit==1.22.0
+tiktoken==0.4.0
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+InstructorEmbedding==1.0.1
+flashrank==0.2.4
+torch
+sentence_transformers

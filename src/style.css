@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    color: #5D3FD3; /* Violet text */
+    background-color: white;
+}
+
+.stTextInput>div>div>input {
+    color: #5D3FD3 !important;
+    border-color: #5D3FD3 !important;
+}
+
+.stButton>button {
+    border: 2px solid #5D3FD3;
+    color: white;
+    background-color: #5D3FD3;
+}
+
+.stButton>button:hover {
+    border: 2px solid #5D3FD3;
+    color: #5D3FD3;
+    background-color: white;
+}

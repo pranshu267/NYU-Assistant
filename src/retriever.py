@@ -22,7 +22,7 @@ FAISS_PATH = "faiss_index"
 
 def get_qa_chain():
 
-    vectordb = FAISS.load_local(FAISS_PATH, EMBEDDINGS, allow_dangerous_deserialization= True)
+    vectordb = FAISS.load_local(FAISS_PATH, EMBEDDINGS)
     retriever = vectordb.as_retriever(score_threshold=0.7)
 
     compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")

@@ -11,4 +11,4 @@ sentence-transformers==2.2.2
 InstructorEmbedding==1.0.1
 flashrank==0.2.4
 torch
-sentence_transformers
+sentence-transformers==2.2.2
